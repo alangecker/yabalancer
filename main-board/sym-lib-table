@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name max14752)(type Legacy)(uri /development/powerwall/balancer/main-board/max14752.lib)(options "")(descr ""))
+  (lib (name MAX14921)(type Legacy)(uri /development/powerwall/balancer/main-board/2019-09-19_18-50-55.lib)(options "")(descr ""))
+  (lib (name main-board-cache)(type Legacy)(uri ${KIPRJMOD}/main-board-cache.lib)(options "")(descr ""))
+  (lib (name main-board)(type Legacy)(uri ${KIPRJMOD}/main-board.lib)(options "")(descr ""))
+)
