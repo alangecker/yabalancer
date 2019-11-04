@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name shunt-board)(type KiCad)(uri ${KIPRJMOD}/shunt-board.pretty)(options "")(descr ""))
+  (lib (name "sop advaned")(type Legacy)(uri ${KIPRJMOD}/TRANS_TPHR8504PL_L1Q.mod)(options "")(descr ""))
+)

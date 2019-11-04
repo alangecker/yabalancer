@@ -1,0 +1,159 @@
+EESchema Schematic File Version 4
+LIBS:shunt-board-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 3000 2600 0    50   Input ~ 0
+Bat+
+Wire Wire Line
+	3950 2150 4200 2150
+Text HLabel 3750 1650 1    50   Input ~ 0
+EN_CHG
+Wire Wire Line
+	3950 3000 4200 3000
+Text HLabel 4750 3500 3    50   Input ~ 0
+EN_DSG
+Wire Wire Line
+	3300 2150 3550 2150
+Wire Wire Line
+	3550 3000 3300 3000
+Wire Wire Line
+	3300 3000 3300 2600
+Wire Wire Line
+	3000 2600 3300 2600
+Wire Wire Line
+	4950 2150 5100 2150
+Wire Wire Line
+	5100 2150 5100 2550
+Wire Wire Line
+	5100 3000 4950 3000
+Connection ~ 5100 3000
+Wire Wire Line
+	5100 3000 5100 3100
+Text HLabel 5450 2550 2    50   Output ~ 0
+Out+
+Wire Wire Line
+	5450 2550 5100 2550
+$Comp
+L Device:R_Small R10
+U 1 1 5DC95A2E
+P 3300 1850
+F 0 "R10" H 3359 1896 50  0000 L CNN
+F 1 "1M" H 3359 1805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 3300 1850 50  0001 C CNN
+F 3 "~" H 3300 1850 50  0001 C CNN
+	1    3300 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 1750 3750 1850
+Wire Wire Line
+	3300 1950 3300 2150
+Connection ~ 3300 2150
+Wire Wire Line
+	3750 1650 3750 1750
+$Comp
+L Device:R_Small R11
+U 1 1 5DC9B7F4
+P 5100 3200
+F 0 "R11" H 5041 3154 50  0000 R CNN
+F 1 "1M" H 5041 3245 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 5100 3200 50  0001 C CNN
+F 3 "~" H 5100 3200 50  0001 C CNN
+	1    5100 3200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4750 3400 4750 3300
+Wire Wire Line
+	5100 3300 5100 3400
+Wire Wire Line
+	4750 3400 4750 3500
+Connection ~ 3300 2600
+Wire Wire Line
+	3300 2600 3300 2150
+Connection ~ 5100 2550
+Wire Wire Line
+	5100 2550 5100 3000
+Wire Wire Line
+	3750 2700 4000 2700
+Wire Wire Line
+	4000 2700 4000 1750
+Wire Wire Line
+	4000 1750 3750 1750
+Connection ~ 3750 1750
+Wire Wire Line
+	4750 2450 4500 2450
+Wire Wire Line
+	4500 2450 4500 3400
+Wire Wire Line
+	4500 3400 4750 3400
+Connection ~ 4750 3400
+Wire Wire Line
+	4750 3400 5100 3400
+Wire Wire Line
+	3300 1750 3750 1750
+Wire Wire Line
+	4200 2150 4200 3000
+Connection ~ 4200 2150
+Wire Wire Line
+	4200 2150 4550 2150
+Connection ~ 4200 3000
+Wire Wire Line
+	4200 3000 4550 3000
+$Comp
+L shunt-board:TPH1R306PL Q1
+U 1 1 5DBDA28E
+P 3750 2150
+F 0 "Q1" V 3901 2150 50  0000 C CNN
+F 1 "TPH1R306PL" V 3992 2150 50  0000 C CNN
+F 2 "sop advaned:TRANS_TPHR8504PL,L1Q" H 4600 2450 50  0001 C CNN
+F 3 "" H 4600 2450 50  0001 C CNN
+	1    3750 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L shunt-board:TPH1R306PL Q3
+U 1 1 5DBDF980
+P 4750 2150
+F 0 "Q3" V 4993 2150 50  0000 C CNN
+F 1 "TPH1R306PL" V 4902 2150 50  0000 C CNN
+F 2 "sop advaned:TRANS_TPHR8504PL,L1Q" H 5600 2450 50  0001 C CNN
+F 3 "" H 5600 2450 50  0001 C CNN
+	1    4750 2150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L shunt-board:TPH1R306PL Q2
+U 1 1 5DBE18D9
+P 3750 3000
+F 0 "Q2" V 3901 3000 50  0000 C CNN
+F 1 "TPH1R306PL" V 3992 3000 50  0000 C CNN
+F 2 "sop advaned:TRANS_TPHR8504PL,L1Q" H 4600 3300 50  0001 C CNN
+F 3 "" H 4600 3300 50  0001 C CNN
+	1    3750 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L shunt-board:TPH1R306PL Q4
+U 1 1 5DBE2A84
+P 4750 3000
+F 0 "Q4" V 4993 3000 50  0000 C CNN
+F 1 "TPH1R306PL" V 4902 3000 50  0000 C CNN
+F 2 "sop advaned:TRANS_TPHR8504PL,L1Q" H 5600 3300 50  0001 C CNN
+F 3 "" H 5600 3300 50  0001 C CNN
+	1    4750 3000
+	0    -1   -1   0   
+$EndComp
+$EndSCHEMATC

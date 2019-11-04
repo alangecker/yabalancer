@@ -21,8 +21,8 @@ P 6150 3000
 AR Path="/5E94870A" Ref="F?"  Part="1" 
 AR Path="/5E945F2D/5E94870A" Ref="F19"  Part="1" 
 F 0 "F19" V 6250 3100 50  0000 C CNN
-F 1 "1A" V 6250 3000 50  0000 C CNN
-F 2 "Resistor_SMD:R_2512_6332Metric" H 6150 3000 50  0001 C CNN
+F 1 "1A" V 6250 2900 50  0000 C CNN
+F 2 "Resistor_SMD:R_1812_4532Metric_Pad1.30x3.40mm_HandSolder" H 6150 3000 50  0001 C CNN
 F 3 "~" H 6150 3000 50  0001 C CNN
 	1    6150 3000
 	0    -1   -1   0   
@@ -64,8 +64,8 @@ P 4750 2900
 AR Path="/5E948743" Ref="C?"  Part="1" 
 AR Path="/5E945F2D/5E948743" Ref="C34"  Part="1" 
 F 0 "C34" H 4842 2946 50  0000 L CNN
-F 1 "0u1" H 4842 2855 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4750 2900 50  0001 C CNN
+F 1 "100nF" H 4842 2855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4750 2900 50  0001 C CNN
 F 3 "~" H 4750 2900 50  0001 C CNN
 	1    4750 2900
 	1    0    0    -1  
@@ -90,7 +90,7 @@ AR Path="/5E948710" Ref="U?"  Part="1"
 AR Path="/5E945F2D/5E948710" Ref="U5"  Part="1" 
 F 0 "U5" H 4250 3467 50  0000 C CNN
 F 1 "MAX5035BASA" H 4250 3376 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4400 2650 50  0001 L CIN
+F 2 "Package_SO:SOP-8_3.76x4.96mm_P1.27mm" H 4400 2650 50  0001 L CIN
 F 3 "http://datasheets.maximintegrated.com/en/ds/MAX5035.pdf" H 4250 2950 50  0001 C CNN
 	1    4250 3000
 	1    0    0    -1  
@@ -105,8 +105,8 @@ P 3700 3350
 AR Path="/5E948777" Ref="C?"  Part="1" 
 AR Path="/5E945F2D/5E948777" Ref="C33"  Part="1" 
 F 0 "C33" H 3792 3396 50  0000 L CNN
-F 1 "0u1" H 3792 3305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3700 3350 50  0001 C CNN
+F 1 "100nF" H 3792 3305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3700 3350 50  0001 C CNN
 F 3 "~" H 3700 3350 50  0001 C CNN
 	1    3700 3350
 	1    0    0    -1  
@@ -202,7 +202,7 @@ AR Path="/5EAD7D49" Ref="C?"  Part="1"
 AR Path="/5E945F2D/5EAD7D49" Ref="C35"  Part="1" 
 F 0 "C35" H 5642 3346 50  0000 L CNN
 F 1 "22u" H 5642 3255 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 5550 3300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 5550 3300 50  0001 C CNN
 F 3 "~" H 5550 3300 50  0001 C CNN
 	1    5550 3300
 	1    0    0    -1  
@@ -215,7 +215,7 @@ AR Path="/5EADF647" Ref="C?"  Part="1"
 AR Path="/5E945F2D/5EADF647" Ref="C36"  Part="1" 
 F 0 "C36" H 5942 3346 50  0000 L CNN
 F 1 "22u" H 5942 3255 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 5850 3300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 5850 3300 50  0001 C CNN
 F 3 "~" H 5850 3300 50  0001 C CNN
 	1    5850 3300
 	1    0    0    -1  

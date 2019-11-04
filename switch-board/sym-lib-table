@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name LibreSolar)(type Legacy)(uri ${KIPRJMOD}/library/libresolar/LibreSolar.lib)(options "")(descr ""))
+  (lib (name shunt-board)(type Legacy)(uri ${KIPRJMOD}/shunt-board.lib)(options "")(descr ""))
+)
