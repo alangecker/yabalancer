@@ -1091,17 +1091,6 @@ F 3 " ~" H 3300 6450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP6
-U 1 1 5D9FB6F2
-P 4800 2550
-F 0 "TP6" V 4800 2800 50  0000 C CNN
-F 1 "PC15" V 4800 3050 50  0000 C CNN
-F 2 "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm" H 5000 2550 50  0001 C CNN
-F 3 "~" H 5000 2550 50  0001 C CNN
-	1    4800 2550
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Connector:TestPoint TP3
 U 1 1 5D9E20C0
 P 4800 2150
@@ -1979,4 +1968,6 @@ F 3 "~" H 7400 6050 50  0001 C CNN
 	1    7400 6050
 	0    -1   -1   0   
 $EndComp
+Text Label 4800 2550 2    50   ~ 0
+EN_DSGB
 $EndSCHEMATC

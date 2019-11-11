@@ -211,7 +211,7 @@ Wire Wire Line
 Wire Wire Line
 	2700 2450 3200 2450
 $Comp
-L Device:Q_NMOS_GSD Q8
+L Transistor_FET:BSS123 Q8
 U 1 1 5D91335F
 P 2600 2650
 AR Path="/5D921C01/5D91335F" Ref="Q8"  Part="1" 
